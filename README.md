@@ -8,3 +8,7 @@
 
 
 ## 观察者模式 Observer Pattern
+
+TODO
+1. 定义
+2. 类图
