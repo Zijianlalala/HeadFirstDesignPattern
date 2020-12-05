@@ -22,5 +22,6 @@
 > **The Decorator Pattern** attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
 ### Class Diagram
+![装饰者模式类图](imgs/DecoratorPattern.png)
 
 
