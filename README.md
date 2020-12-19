@@ -24,4 +24,13 @@
 ### Class Diagram
 ![装饰者模式类图](imgs/DecoratorPattern.png)
 
+## 工厂模式
+这一章太长了。。上次没看完，就不想继续看了。。随缘看吧
+
+## 单例模式
+### 定义
+> **The Singleton Pattern** ensures a class has only one instance, and provides a global point of access to it.
+ 
+注意单线程和多线程下单例模式的不同实现。
+
 
