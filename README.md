@@ -33,4 +33,14 @@
  
 注意单线程和多线程下单例模式的不同实现。
 
+## 命令模式
+### 定义
+> **The Command Pattern** encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
+
+## 适配者模式
+### 定义
+> **The Adapter Pattern** converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+
+### Class Diagram
+![适配者模式](imgs/AdapterPattern.png)
 
