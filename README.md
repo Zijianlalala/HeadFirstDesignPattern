@@ -44,3 +44,10 @@
 ### Class Diagram
 ![适配者模式](imgs/AdapterPattern.png)
 
+### 举个例子
+老版本的Java使用Enumeration，新版本Java使用Iterator，统一使用Iterator时，要对Enumeration进行适配。
+
+## 门面模式 Facade Pattern
+门面模式是简化接口，适配者模式是转化接口。
+### 定义 
+> **The Facade Pattern** provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
