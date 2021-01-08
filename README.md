@@ -51,3 +51,18 @@
 门面模式是简化接口，适配者模式是转化接口。
 ### 定义 
 > **The Facade Pattern** provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+
+## 模板方法模式 The Template Method Pattern
+### 定义
+> **The Template Method Pattern** defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+### Class Diagram
+![模板方法模式](imgs/TemplateMethodPattern.png)
+
+### 用例
+1. Java数组中的sort方法`Arrays.sort()`，其中的`compareTo()`方法需要自己实现
+2. Java.io有一个read()方法，必须子类实现。
+
+## 迭代器模式
+> 需求：统一不同的集合类型
+### 定义
+> **The Iterator Pattern** provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
