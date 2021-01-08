@@ -63,6 +63,20 @@
 2. Java.io有一个read()方法，必须子类实现。
 
 ## 迭代器模式
-> 需求：统一不同的集合类型
+> 需求：统一不同的集合类型，不暴露集合本身
 ### 定义
 > **The Iterator Pattern** provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+## 组合模式
+目的是统一处理非叶子节点(compositions of objects)和叶子节点（individual objects)
+
+利用树的结构，递归的对树上的对象进行遍历
+### 定义
+> **The Composite pattern** allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+
+
+### 类图
+![组合模式类图](imgs/CompositePattern.png)
+
+用`Component`来实现叶子节点和非叶子结点的多态
+
